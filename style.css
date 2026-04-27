@@ -330,11 +330,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 6rem;
-    height: 5rem;
+    width: 6.5rem;
+    height: 5.5rem;
     border: var(--border);
     border-radius: .3rem;
     font-weight: 600;
+    font-size: 0.75rem;
+    transition: .3s ease;
+    text-align: center;
+    padding: 0.2rem;
     transition: .3 ease;
 }
 .skills-content .content span:hover{
@@ -342,7 +346,8 @@ body{
 }
 .skills-content .content span i{
     color: var(--main-color);
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 0.2rem;
 }
 
 /* portfolio */
